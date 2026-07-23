@@ -2,7 +2,7 @@
 
 An AI-powered web application that generates personalized learning roadmaps based on a user's goals, current skill level, and time commitment. Built with **Flask** and powered by the **Groq API**.
 
----
+
 
 ## ✨ Features
 
@@ -11,7 +11,7 @@ An AI-powered web application that generates personalized learning roadmaps base
 - 🎨 **Simple Web UI** — Single-page interface (Flask + Jinja2 template) to enter a goal and view the generated roadmap
 - ⚡ **Fast Inference** — Groq's LPU-based API returns responses quickly compared to typical LLM APIs
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -23,11 +23,11 @@ An AI-powered web application that generates personalized learning roadmaps base
 | Config     | python-dotenv (.env)     |
 | Deployment | Gunicorn-ready (Render / Railway) |
 
----
+
 
 ## 📂 Project Structure
 
-```
+
 roadmap_ai/
 │
 ├── app.py                # Main Flask app — routes + Groq API logic
@@ -38,9 +38,9 @@ roadmap_ai/
 ├── .env                  # Environment variables (GROQ_API_KEY, etc.) — not committed
 ├── .gitignore
 └── README.md
-```
 
----
+
+
 
 ## ⚙️ Installation & Setup
 
@@ -77,7 +77,7 @@ python app.py
 ```
 Visit `http://127.0.0.1:5000` in your browser.
 
----
+
 
 ## 🚀 Usage
 
@@ -87,7 +87,7 @@ Visit `http://127.0.0.1:5000` in your browser.
 4. Click **Generate Roadmap**
 5. View your AI-generated, step-by-step roadmap on the same page
 
----
+
 
 ## 🔮 Future Improvements
 
@@ -97,21 +97,21 @@ Visit `http://127.0.0.1:5000` in your browser.
 - [ ] Progress tracking with a checklist for each roadmap step
 - [ ] Deploy live demo (Render/Railway) and link here
 
----
+
 
 ## 🤝 Contributing
 
 Contributions and suggestions are welcome — feel free to open an issue or PR.
 
----
+
 
 ## 📄 License
 
 This project is licensed under the MIT License.
 
----
+
 
 ## 👤 Author
 
 **Stuti Khanna**
-Final Year AI/CS Student | BBD University, Lucknow
+Final Year CSE(AI) Student | BBD University, Lucknow
