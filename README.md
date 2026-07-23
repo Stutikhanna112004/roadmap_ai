@@ -4,7 +4,7 @@ An AI-powered web application that generates personalized learning roadmaps base
 
 
 
-## ✨ Features
+## Features
 
 - 🎯 **Personalized Roadmaps** — Generates a step-by-step learning path tailored to the user's goal
 - 🤖 **AI-Powered** — Uses Groq's LLM API to dynamically generate structured, relevant content
@@ -13,7 +13,7 @@ An AI-powered web application that generates personalized learning roadmaps base
 
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer      | Technology              |
 |------------|---------------------------|
@@ -25,7 +25,7 @@ An AI-powered web application that generates personalized learning roadmaps base
 
 
 
-## 📂 Project Structure
+## Project Structure
 
 
 roadmap_ai/
@@ -42,7 +42,7 @@ roadmap_ai/
 
 
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the repository
 ```bash
@@ -66,8 +66,6 @@ pip install -r requirement.txt
 Create a `.env` file in the root directory:
 ```env
 GROQ_API_KEY=your_groq_api_key_here
-FLASK_ENV=development
-SECRET_KEY=your_secret_key
 ```
 Get a free Groq API key from [console.groq.com](https://console.groq.com).
 
@@ -79,7 +77,7 @@ Visit `http://127.0.0.1:5000` in your browser.
 
 
 
-## 🚀 Usage
+## Usage
 
 1. Open the app in your browser
 2. Enter your learning goal (e.g., *"Become a Machine Learning Engineer"*)
@@ -89,7 +87,7 @@ Visit `http://127.0.0.1:5000` in your browser.
 
 
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] Save/export roadmap as PDF or Markdown
 - [ ] Add user input validation & loading states in UI
@@ -99,19 +97,19 @@ Visit `http://127.0.0.1:5000` in your browser.
 
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions and suggestions are welcome — feel free to open an issue or PR.
 
 
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
 
 
-## 👤 Author
+## Author
 
 **Stuti Khanna**
 Final Year CSE(AI) Student | BBD University, Lucknow
